@@ -16,7 +16,7 @@ class Circle extends Shape implements Drawable{
    //return print('Area of Circle ${3.14 * pow(radius!,2 )}');
     //String areaMessage = 'Area of Circle: ${ (pi * pow(radius!, 2)).toStringAsFixed(2) }';
     //print(areaMessage);
-    return print('Area of Circle: ${ (pi * pow(radius!, 2)).toStringAsFixed(2) }') ;
+     print('Area of Circle: ${ (pi * pow(radius!, 2)).toStringAsFixed(2) }') ;
   }
   @override
   draw() {
@@ -33,7 +33,7 @@ class Rectangle extends Shape implements Drawable{
   @override
   calculateArea() {
     // TODO: implement calculateArea
-    return print('Area of Rectangle : ${width! * high!}');
+   print('Area of Rectangle : ${width! * high!}');
 
   }
   draw() => print('Drawing Rectangle with width:${width} and height: ${high}');
