@@ -4,7 +4,7 @@ import 'dart:math';
 abstract class Shape{
   calculateArea();
 }
-abstract class Drawable implements Shape{
+abstract class Drawable {
   draw();
 }
 class Circle extends Shape implements Drawable{
